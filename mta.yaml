@@ -13,6 +13,7 @@ build-parameters:
         - mkdir -p build/ui-deployer
         - rm -rf build/dist
         - mkdir -p build/dist
+        - npm install --production
     - builder: custom
       commands:
         - npm install --production
